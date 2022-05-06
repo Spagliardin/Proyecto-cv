@@ -57,6 +57,16 @@ ul{
     text-align: center;
 }
 
+.col-flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.flex-none{
+    flex: none;
+}
+
 @media all and (max-width: 995px){
     .wrapper-one{
         margin-top: 0;

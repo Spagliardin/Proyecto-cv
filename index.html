@@ -5,14 +5,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
      <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
-    <!-- Global CSS -->
-    <link rel="stylesheet" href="./css/style.css">
     <!-- icons Bootstrap CSS -->
     <link rel="stylesheet" href="./bootstrap-icons/font/bootstrap-icons.css">
     <!-- Font Style -->
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
     <link rel="shortcut icon" href="./icons/cv.png">
+    <!-- Global CSS -->
+    <link rel="stylesheet" href="./css/style.css">
     <meta name="author" content="Spagliardi Nicolas">
     <meta name="description" content="Spagliardi Nicolas - CV - Resumen Personal">
     <title>CV Spagliardi Nicolás</title>
@@ -20,8 +20,8 @@
 <body>
     <!-- first column -->
     <div class="container">
-        <aside class="row justify-content-md-center">
-            <div class="col-md-12 col-lg-3 wrapper-one">
+        <div class="row justify-content-md-center">
+            <header class="col-md-12 col-lg-3 wrapper-one">
                 <img class="img-fluid rounded float-start" src="./img/imgSpagliardi.jpeg" alt="imgNicolasSpagliardi">
                 <h1 class="text-center">Spagliardi Nicolás</h1>
                 <figcaption class="text-center mb-5"><dt> Web Developer</dt></figcaption>
@@ -42,132 +42,286 @@
                     <li>Español</li>
                     <li>Ingles (intermedio) </li>
                 </ul>
-            </div>
+            </header>
             <!-- Main -->
-            <div class="col-md-12 col-lg-9 wrapper-two">
-                <div class="container-icon d-inline-block align-top">
-                    <i class="bi bi-person-circle align-top icon"></i>
-                </div>
-                <h4 class="upp d-inline-block">Resumen Personal</h4>
-                <p> Este soy yo, me pueden llamar Nico🤓.
-                    Amante de la tecnología por sobre todo, también me considero una persona muy capaz y entusiasta para activar cualquier tarea, si no lo sé, investigo, lo aprendo y aplico para así cada día poder cumplir diferentes objetivos mientras fortalezco mis conocimientos.
-                    En principio de esta hermosa profesión realice proyectos propios y de terceros en forma freelancer como desarrollador web a través de CMS manejando PHP. Hoy en día cuento con conocimientos sólidos en JavaScript y tecnologías como HTML5, CSS3, SASS, git, frameworks de estilo + frameworks de JS como Angular y React. Siempre queriendo aprender y avanzar. 😁.
-               </p>
+            <main class="col-md-12 col-lg-9 wrapper-two">
+                <section>
+                    <div class="container-icon d-inline-block align-top">
+                        <i class="bi bi-person-circle align-top icon"></i>
+                    </div>
+                    <h4 class="upp d-inline-block">Resumen Personal</h4>
+                    <p> Este soy yo, me pueden llamar Nico🤓. <br>
+                        Amante de la tecnología por sobre todo. Me considero una persona muy capaz y entusiasta para activar cualquier tarea, si no lo sé, se investiga, se aprende y se aplica para así cada día poder cumplir diferentes objetivos mientras fortalezco mis conocimientos. <br> 
+                        Siempre queriendo aprender, crecer y avanzar. 😁.
+                   </p>
+                </section>
                 <hr>
-                <div class="container-icon d-inline-block align-top">
-                    <i class="bi bi-briefcase-fill align-top icon"></i>
-                </div>
-                <h4 class="upp d-inline-block">Experiencia</h4>
-                    <ul>
-                        <li><strong>Front-End Developer | Angular en <a href="https://www.emergencias.com.ar/"> Emergencias SA</a></strong></li>
-                        <li class="text-muted">Julio 2021 - Actualmente</li>
+                <section>
+
+                    <div class="container-icon d-inline-block align-top">
+                        <i class="bi bi-briefcase-fill align-top icon"></i>
+                    </div>
+                    <h4 class="upp d-inline-block">Experiencia</h4>
                         <ul>
-                            <li>Desarrollo FrontEnd de producto - Typescript - Angular</li>  
+                            <li><strong>Front-End Angular Developer en <a href="https://www.emergencias.com.ar/"> Emergencias SA</a></strong></li>
+                            <li class="text-muted">Abril 2021 - Actualmente</li>
+                            <ul>
+                                <li>Angular 12, Ionic, TypeScript, RxJs, PWA</li>  
+                                <li>HTML, Css, Grid, Flexbox, Bootstrap y Sass.</li>  
+                                <li>Desarrollo de componentes reutilizables, bug fixing, funcionalidades y estilos.</li>  
+                                <li>Integración de servicios con API REST</li>  
+                                <li>Metodología Ágil Scrum</li>  
+                                <li>Jira Software, Confluence, Bitbucket</li>  
+                            </ul>
                         </ul>
-                    </ul>
-                    <ul>
-                        <li><strong>Profesor Front-End I en <a href="https://www.digitalhouse.com/ar"> Digital House</a></strong></li>
-                        <li class="text-muted">Marzo 2021 - Actualmente</li>
                         <ul>
-                            <li>Dictado de clases de la materia Frontend I - Acompañar la evolución de los alumnos durante la cursada</li>
-                            <li>Desarrollo de ejercicios prácticos de la materia - Evaluación del alumnado</li>  
+                            <li><strong>Profesor Front-End I en <a href="https://www.digitalhouse.com/ar"> Digital House</a></strong></li>
+                            <li class="text-muted">Marzo 2021 - Actualmente</li>
+                            <ul>
+                                <li>Dictado de clases de la materia Front end I - Acompañamiento en la evolución de los alumnos durante la cursada</li>
+                                <li>Desarrollo de ejercicios prácticos de la materia - Evaluación del alumnado</li>  
+                            </ul>
                         </ul>
-                    </ul>
-                    <ul>
-                        <li><strong>Desarrollo Sitios Web - Proyectos Freelance</strong></li>
-                        <li class="text-muted">2020</li>
                         <ul>
-                            <li>Proyecto propios para afianzar conocimientos</li>
-                            <li>Frameworks utilizados: Bootstrap</li>
-                            <ul class="webs">
-                                <li><a target="_blank" href="https://spagliardin.github.io/NewDive-Site/">NewDive-Site</a></li>
-                            </ul>    
+                            <li><strong>Desarrollo Sitios Web - Proyectos Freelance</strong></li>
                         </ul>
-                    </ul>
-                    <ul>
-                        <li>
+                        <ul>
+                            <li>
+                                <li class="text-muted">2019-2020</li>
+                                <ul>
+                                    <li>Durante este periodo realice algunos proyectos como desarrollador a traves del CMS Wordpress. Gestioné Front-end & back-End, diseño, investigación
+                                        prototipado, obtención de dominio, subida al servidor, desarrollo general, seguridad y optimización de los sitios</li>
+                                    <li>Webs Realizadas:</li>
+                                    <ul class="webs">
+                                        <li><a target="_blank" href="https://www.estilocampodx.com.ar/">Estilo Campo DX</a></li>
+                                        <li><a target="_blank" href="https://fmestilodx.com.ar/"> FM Estilo DX</a></li>
+                                    </ul>
+                                </ul>                            
+                            </li>
+                        </ul>
+                        <br>
+                </section>
+                <hr>
+                <section>
+                    <div class="container-icon d-inline-block align-top">
+                        <i class="bi bi-award"></i>
+                    </div>
+                    <h4 class="upp d-inline-block ">Educación</h4>
+                        <ul>
+                            <li><strong>Desarrollo Web - Front-end in CoderHouse</strong></li>
+                            <li class="text-muted">2020-2021</li>
+                            <ul>
+                                <li>Desarrollo web front end (HTML5 - SASS - GIT - GITHUB - JAVASCRIPT - REACT JS)</li>
+                            </ul>
+                        </ul>
+                        <ul>
+                            <li><strong>Digital Marketing & Web Analytics Association</strong></li>
                             <li class="text-muted">2019-2020</li>
                             <ul>
-                                <li>Durante este periodo realice algunos proyectos como desarrollador a traves del CMS Wordpress. Gestioné Front-end & back-End, diseño, investigación
-                                    prototipado, obtención de dominio, subida al servidor, desarrollo general, seguridad y optimización de los sitios</li>
-                                <li>Webs Realizadas:</li>
-                                <ul class="webs">
-                                    <li><a target="_blank" href="https://www.estilocampodx.com.ar/">Estilo Campo DX</a></li>
-                                    <li><a target="_blank" href="https://fmestilodx.com.ar/"> FM Estilo DX</a></li>
-                                </ul>
-                            </ul>                            
-                        </li>
-                    </ul>
-                    <br>
+                                <li>Diseño web en Wordpress, Seo, google analytics, Email marketing, Social Media, A/B Testing google ads, facebook ads</li>
+                            </ul>
+                        </ul>
+                        <ul>
+                            <li><strong>Tecnico en sistemas - Escuela tecnica Nº 37 DE 20</strong></li>
+                            <li class="text-muted">2006-2012</li>
+                            <ul>
+                                <li>Escuela técnica en computación con base de programación en C++, C#, SQL</li>
+                            </ul>
+                        </ul>
+                </section>
                 <hr>
-                <div class="container-icon d-inline-block align-top">
-                    <i class="bi bi-award"></i>
-                </div>
-                <h4 class="upp d-inline-block ">Educación</h4>
-                    <ul>
-                        <li><strong>Desarrollo Web - Front-end in CoderHouse</strong></li>
-                        <li class="text-muted">2020-2021</li>
-                        <ul>
-                            <li>Desarrollo web front end (HTML5 - SASS - GIT - GITHUB - JAVASCRIPT - REACT JS)</li>
-                        </ul>
-                    </ul>
-                    <ul>
-                        <li><strong>Digital Marketing & Web Analytics Association</strong></li>
-                        <li class="text-muted">2019-2020</li>
-                        <ul>
-                            <li>Diseño web en Wordpress, Seo, google analytics, Email marketing, Social Media, A/B Testing google ads, facebook ads</li>
-                        </ul>
-                    </ul>
-                    <ul>
-                        <li><strong>Tecnico en sistemas - Escuela tecnica Nº 37 DE 20</strong></li>
-                        <li class="text-muted">2006-2012</li>
-                        <ul>
-                            <li>Escuela técnica en computación con base de programación en C++, C#, SQL</li>
-                        </ul>
-                    </ul>
-                <hr>
-                <div class="container-icon d-inline-block align-top">
-                    <i class="bi bi-cpu align-top icon"></i>
-                </div>
-                <h4 class="upp d-inline-block ">skills</h4>
-                <ul>
-                    <li>HTML 
-                        <div class="progress">
-                            <div class="progress-bar bg-info" role="progressbar" style="width: 95%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
-                          </div>
-                    </li>
-                    <li>SASS
-                        <div class="progress">
-                            <div class="progress-bar bg-info" role="progressbar" style="width: 95%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
-                          </div>
-                    </li>
-                    <li>JAVASCRIPT
-                        <div class="progress">
-                            <div class="progress-bar bg-info" role="progressbar" style="width: 90%" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
-                          </div>
-                    </li>
-                    <li>GIT
-                        <div class="progress">
-                            <div class="progress-bar bg-info" role="progressbar" style="width: 40%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
-                          </div>
-                    </li>
-                    <li>REACT
-                        <div class="progress">
-                            <div class="progress-bar bg-info" role="progressbar" style="width: 40%" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100"></div>
-                          </div>
-                    </li>
-                    <li>Angular
-                        <div class="progress">
-                            <div class="progress-bar bg-info" role="progressbar" style="width: 80%" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100"></div>
-                          </div>
-                    </li>
-                </ul>
-            </div>
-        </aside>
+                <section>
+
+                    <div class="container-icon d-inline-block align-top">
+                        <i class="bi bi-cpu align-top icon"></i>
+                    </div>
+                    <h4 class="upp d-inline-block ">skills</h4>
+    
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-6 col-sm-4 col-md-3">
+                                <div class="card border-0">
+                                    <div class="row g-0 justify-content-center">
+                                        <div class="col-6">
+                                            <img src="./icons/Angular_full_color_logo.svg.png" class="img-fluid rounded-start" alt="Angular">
+                                        </div>
+                                        <div class="col-12 col-md-6 col-flex">
+                                            <div class="card-body flex-none">
+                                                <h6 class="card-title">Angular</h6>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-6 col-sm-4 col-md-3">
+                                <div class="card border-0">
+                                    <div class="row g-0 justify-content-center">
+                                        <div class="col-6">
+                                            <img src="./icons/ionic-logo-wh.png" class="img-fluid rounded-start" alt="Ionic">
+                                        </div>
+                                        <div class="col-12 col-md-6 col-flex">
+                                            <div class="card-body flex-none">
+                                                <h6 class="card-title">Ionic</h6>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-6 col-sm-4 col-md-3">
+                                <div class="card border-0">
+                                    <div class="row g-0 justify-content-center">
+                                        <div class="col-6">
+                                            <img src="./icons/rxjs-logo.svg" class="img-fluid rounded-start" alt="RXJS">
+                                        </div>
+                                        <div class="col-12 col-md-6 col-flex">
+                                            <div class="card-body flex-none">
+                                                <h6 class="card-title">RxJs</h6>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-6 col-sm-4 col-md-3">
+                                <div class="card border-0">
+                                    <div class="row g-0 justify-content-center">
+                                        <div class="col-6">
+                                            <img src="./icons/typescript.png" class="img-fluid rounded-start" alt="HTML">
+                                        </div>
+                                        <div class="col-12 col-md-6 col-flex">
+                                            <div class="card-body flex-none">
+                                                <h6 class="card-title">Typescript</h6>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row mt-5">
+                            <div class="col-6 col-sm-4 col-md-3">
+                                <div class="card border-0">
+                                    <div class="row g-0 justify-content-center">
+                                        <div class="col-6">
+                                            <img src="./icons/html-5.png" class="img-fluid rounded-start" alt="HTML">
+                                        </div>
+                                        <div class="col-12 col-md-6 col-flex">
+                                            <div class="card-body flex-none">
+                                              <h6 class="card-title">HTML</h6>
+                                            </div>
+                                          </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-6 col-sm-4 col-md-3">
+                                <div class="card border-0">
+                                    <div class="row g-0 justify-content-center">
+                                        <div class="col-6">
+                                            <img src="./icons/css-3.png" class="img-fluid rounded-start" alt="CSS">
+                                        </div>
+                                        <div class="col-12 col-md-6 col-flex">
+                                            <div class="card-body flex-none">
+                                                <h6>CSS</h6>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-6 col-sm-4 col-md-3">
+                                <div class="card border-0">
+                                    <div class="row g-0 justify-content-center">
+                                        <div class="col-6">
+                                            <img src="./icons/sass.png" class="img-fluid rounded-start" alt="SASS">
+                                        </div>
+                                        <div class="col-12 col-md-6 col-flex">
+                                            <div class="card-body flex-none">
+                                                <h6>SASS</h6>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-6 col-sm-4 col-md-3">
+                                <div class="card border-0">
+                                    <div class="row g-0 justify-content-center">
+                                        <div class="col-6">
+                                            <img src="./icons/js.png" class="img-fluid rounded-start" alt="Javascript">
+                                        </div>
+                                        <div class="col-12 col-md-6 col-flex">
+                                            <div class="card-body flex-none">
+                                                <h6>JavaScript</h6>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row mt-5">
+                            <div class="col-6 col-sm-4 col-md-3">
+                                <div class="card border-0">
+                                    <div class="row g-0 justify-content-center">
+                                        <div class="col-6">
+                                            <img src="./icons/node.png" class="img-fluid rounded-start" alt="HTML">
+                                        </div>
+                                        <div class="col-12 col-md-6 col-flex">
+                                            <div class="card-body flex-none">
+                                              <h6 class="card-title">Node Js</h6>
+                                            </div>
+                                          </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-6 col-sm-4 col-md-3">
+                                <div class="card border-0">
+                                    <div class="row g-0 justify-content-center">
+                                        <div class="col-6">
+                                            <img src="./icons/git.png" class="img-fluid rounded-start" alt="CSS">
+                                        </div>
+                                        <div class="col-12 col-md-6 col-flex">
+                                            <div class="card-body flex-none">
+                                                <h6>Git</h6>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-6 col-sm-4 col-md-3">
+                                <div class="card border-0">
+                                    <div class="row g-0 justify-content-center">
+                                        <div class="col-6">
+                                            
+                                        </div>
+                                        <div class="col-12 col-md-6 col-flex">
+                                            <div class="card-body flex-none">
+                                                
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-6 col-sm-4 col-md-3">
+                                <div class="card border-0">
+                                    <div class="row g-0 justify-content-center">
+                                        <div class="col-6">
+                                            
+                                        </div>
+                                        <div class="col-12 col-md-6 col-flex">
+                                            <div class="card-body flex-none">
+                                                
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </main>
+        </div>
     </div>
-    <div class="text-center mt-3 mb-3">
-        <strong><i">Designed Web by Spagliardi Nicolás</i></strong>
-    </div>
+    <footer>
+        <div class="text-center mt-3 mb-3">
+            <strong><i">Designed Web by Spagliardi Nicolás</i></strong>
+        </div>
+    </footer>
     <!-- 
     <div class="text-center">
         <a href="./index.html"><img src="./icons/argentina.png" alt="Argentina Flag"></a>
