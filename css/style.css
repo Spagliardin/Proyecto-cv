@@ -87,6 +87,8 @@ small.ml-2 {
 @media print {
   header {
     color: black !important; }
+    header a {
+      color: black !important; }
   .separation-200 {
     margin-top: 200px; }
   img.img-fluid {
