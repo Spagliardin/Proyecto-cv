@@ -1,39 +1,56 @@
 body {
-  font-family: 'Roboto', sans-serif; }
+  font-family: 'Roboto', sans-serif;
+}
 
 [class*=wrapper-] {
   padding: 20px;
   margin-top: 10px;
   margin-bottom: 10px;
   border: 2px black solid;
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5); }
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5); 
+}
 
 a {
   text-decoration: none;
-  color: white; }
+  color: white; 
+}
 
 ul {
-  list-style: none; }
+  list-style: none; 
+}
 
 .upp {
-  text-transform: uppercase; }
+  text-transform: uppercase; 
+}
 
 .icons {
-  margin-right: 10px; }
+  margin-right: 10px; 
+}
+
+.w-99 {
+  width: 99%;
+}
 
 .wrapper-one {
   background-color: #145370;
-  color: white; }
-  .wrapper-one h1 {
-    font-size: 1.5rem; }
-  .wrapper-one img {
-    margin-bottom: 10px; }
+  color: white; 
+}
+
+.wrapper-one h1 {
+  font-size: 1.5rem; 
+}
+
+.wrapper-one img {
+  margin-bottom: 10px; 
+}
 
 .wrapper-two .webs {
-  list-style: circle; }
+  list-style: circle; 
+}
 
 .wrapper-two a {
-  color: #145370; }
+  color: #145370; 
+}
 
 .container-icon {
   width: 30px;
@@ -43,26 +60,36 @@ ul {
   color: white;
   background-color: #145370;
   border-radius: 50%;
-  text-align: center; }
+  text-align: center; 
+}
 
 .col-flex {
   display: flex;
   justify-content: center;
-  align-items: center; }
+  align-items: center; 
+}
 
 .flex-none {
-  flex: none; }
+  flex: none; 
+}
 
 @media all and (max-width: 995px) {
+
   .wrapper-one {
     margin-top: 0;
-    margin-bottom: 0; }
-    .wrapper-one img {
+    margin-bottom: 0; 
+  }
+
+  .wrapper-one img {
       max-width: 20rem;
       max-height: 30rem;
-      margin-right: 20px; }
+      margin-right: 20px; 
+  }
+
   .wrapper-two {
-    margin-top: 0; } }
+    margin-top: 0; 
+  }
+}
 
 .myButton {
   border: none;
@@ -75,23 +102,36 @@ ul {
   font-size: 20px;
   padding: 13px 25px;
   text-decoration: none;
-  text-shadow: 0px 1px 0px #3d768a; }
+  text-shadow: 0px 1px 0px #3d768a;
+}
 
 .myButton:hover {
   background: linear-gradient(to bottom, #145370 5%, #3788ab 100%);
-  background-color: #145370; }
+  background-color: #145370; 
+}
 
 small.ml-2 {
-  margin-left: 4px; }
+  margin-left: 4px; 
+}
 
 @media print {
   header {
-    color: black !important; }
-    header a {
-      color: black !important; }
+    color: black !important;
+  }
+
+  header a {
+      color: black !important; 
+  }
+
   .separation-200 {
-    margin-top: 200px; }
+    margin-top: 200px; 
+  }
+
   img.img-fluid {
-    width: 90% !important; }
+    width: 90% !important; 
+  }
+
   button.myButton {
-    display: none; } }
+    display: none; 
+  }
+}
