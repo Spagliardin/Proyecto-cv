@@ -1,0 +1,14 @@
+[[redirects]]
+  from = "/it/*"
+  to = "/it.html/:splat"
+  status = 200
+
+[[redirects]]
+  from = "/en/*"
+  to = "/en.html/:splat"
+  status = 200
+
+[[redirects]]
+  from = "/*"
+  to = "/index.html/:splat"
+  status = 200
