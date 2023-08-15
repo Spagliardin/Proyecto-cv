@@ -1,11 +1,11 @@
 [[redirects]]
   from = "/it/*"
-  to = "/it.html/:splat"
+  to = "pages/it.html/:splat"
   status = 200
 
 [[redirects]]
   from = "/en/*"
-  to = "/en.html/:splat"
+  to = "pages/en.html/:splat"
   status = 200
 
 [[redirects]]
